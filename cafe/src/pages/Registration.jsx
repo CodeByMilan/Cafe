@@ -3,7 +3,7 @@ import React from "react";
 const Registration = () => {
   return (
     <>
-      <div className="container mt-10 shadow-md justify-center items-center w-screen max-w-md mx-auto p-6">
+      <div className="container mt-10 shadow-md justify-center items-center w-screen  mx-auto p-6">
         <h1 className="text-center text-3xl mt-5 py-5 font-mono font-bold">Reservation Form</h1>
         <form className="max-w-sm mx-auto">
           <div className="relative z-0 w-full mb-5 group">

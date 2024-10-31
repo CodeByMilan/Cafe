@@ -1,6 +1,8 @@
 import React from 'react'
 import Card from './Card'
 import pizza from './../assets/pizza.jpg'
+import pasta  from './../assets/pasta.avif'
+import burger from './../assets/burger.avif'
 
 
 const Featured = () => {
@@ -14,13 +16,13 @@ const Featured = () => {
         {
           name: 'Pasta',
           description: 'Authentic Italian pasta in a cozy environment with beautiful ambiance.',
-          image: pizza,
+          image: pasta,
           rating:4.5,
         },
         {
           name: 'Burger',
           description: 'Juicy burger with fresh ingredients, perfect for a quick meal.',
-          image:pizza,
+          image:burger,
           rating:4.5,
         },
       ];

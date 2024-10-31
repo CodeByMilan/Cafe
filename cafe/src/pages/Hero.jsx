@@ -2,6 +2,7 @@ import React from "react";
 import { useRef, useEffect } from "react";
 import landing_video from "../assets/landing_video.mp4";
 import Button from "../components/Button";
+import { Link } from "react-router-dom";
 export default function Hero() {
   const videoRef = useRef(null);
   useEffect(() => {
@@ -30,12 +31,12 @@ export default function Hero() {
             and bite is a journey of delight!
           </p>
           <div className="flex py-4 mt-10 text-white font-semibold rounded-lg justify-center gap-4 items-center">
-    <Button content="Book Your Table"/>
-    <Button content="Visit us" />
+   <Link to="/registration"><Button content="Book Your Table"/></Link> 
+   <Link to="/contact"><Button content="Visit us" /></Link> 
 </div>
         </div>
       </div>
-      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-25 z-0"></div>
+
     </section>
   );
 }

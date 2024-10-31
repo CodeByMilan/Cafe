@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Featured from './components/Featured'
 import Review from './pages/Review'
 import ContactPage from './pages/ContactPage'
+import Registration from './pages/Registration'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
    <Navbar />
    <Hero />
    <Featured/>
+   <Registration/>
    <Review/>
    <ContactPage/>
    <Footer/>

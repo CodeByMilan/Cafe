@@ -20,15 +20,15 @@ export default function Navbar() {
                 <Link to="/">Home</Link>
               </li>
               <li className="hover:scale-105   hover:text-blue-600">
-                <Link to="/">Menu </Link>
+                <Link to="/menu">Menu </Link>
               </li>
               <li className="hover:scale-105   hover:text-blue-600">
-                <Link to="/">Contact </Link>
+                <Link to="/contact">Contact </Link>
               </li>
             </ul>
             <ul className="flex gap-5 mr-3 pr-3 ">
               <li className="hover:scale-105   hover:text-blue-600">
-                <Link to="/">Location </Link>
+                <Link to="/location">Location </Link>
               </li>
               <Link to="/reservation">
                 <button
