@@ -66,7 +66,8 @@ const message = [
 
 const Review = () => {
   return (
-    <section className="w-screen text-center p-5 mt-20 ">
+    <>
+    <section className="w-screen text-center p-5 mt-20 mb-10">
       <h3 className="mb-15 text-3xl font-bold ">What People Says About Us !!</h3>
       <div className="grid gap-6 text-center md:grid-cols-4 lg:gap-12">
         {message.map((message, index) => (
@@ -120,6 +121,8 @@ const Review = () => {
         ))}
       </div>
     </section>
+    
+    </>
   );
 };
 
