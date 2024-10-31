@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './pages/Hero'
 import Footer from './components/Footer'
 import Featured from './components/Featured'
+import Review from './pages/Review'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
    <Navbar />
    <Hero />
    <Featured/>
+   <Review/>
    <Footer/>
    </>
   )
